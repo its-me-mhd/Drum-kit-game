@@ -73,7 +73,6 @@ function makeSound(key){
 }
 
 function buttonAnimation(currentKey) {
-   // we want sure that the current key or the button has these 2 classes!
    
    var activeButton = document.querySelector(`.drum.${currentKey.toLowerCase()}`) ; 
 
